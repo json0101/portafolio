@@ -1,0 +1,105 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #DBE8D4;
+}
+
+h1 {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+
+}
+
+body {
+    background-color: #222733;
+}
+
+@media (min-width: 800px) {
+    .grid-container-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 50px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+}
+
+
+
+.datos-personales, .experiencia-laboral, .educacion {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    padding: 10px;
+}
+
+
+
+.datos-personales img {    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    
+}
+
+.datos-personales .image {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-container-b {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;    
+}
+
+
+
+.datos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 7px;
+}
+
+.datos-grid .label {
+    font-weight: bold;
+}
+
+.experiencia-logo, .educacion-logo {    
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.experiencia-logo img, .educacion-logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+

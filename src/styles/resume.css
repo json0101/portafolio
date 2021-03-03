@@ -1,0 +1,48 @@
+.resume h1 {
+    font-weight: lighter;
+}
+
+.resume h2 {
+    
+    text-align: center;
+}
+
+.resume {
+    background-color: #222733;
+}
+
+.resume-section h1 {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.resume-section h1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    background-color: #525e65;
+}
+
+.resume-section p {
+    text-align: center;
+}
+
+.resume-section ul {
+    text-align: center;
+}
+
+.resume-section li {
+    margin-left: 10px;
+}
+
+.resume-section li a {
+    font-size: 25px;
+}

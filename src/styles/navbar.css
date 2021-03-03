@@ -1,0 +1,41 @@
+
+nav {
+    margin-bottom: 20px;
+    background-color: #525e65;
+    color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav-item {
+    display: block;
+    line-height: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.active {
+    border-bottom: 4px solid yellow;
+}
+
+.nav-item:visited {
+    color: white;
+}
+
+.nav-item:hover {
+    color:yellow;
+    border-bottom: 4px solid yellow;
+}
+

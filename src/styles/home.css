@@ -1,0 +1,28 @@
+.home {
+    margin-top: 10rem;    
+}
+
+.home h1 {
+    font-weight: lighter;
+}
+
+.home h2 {
+    font-weight: bold;
+    color: #73CCA8;
+    text-align: center;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+@media only screen and (min-width:30rem) {
+    .home {
+        width: 28rem;
+        margin: 10rem auto;
+    }
+
+}
