@@ -46,3 +46,11 @@
 .resume-section li a {
     font-size: 25px;
 }
+
+@media only screen and (min-width:30rem) {
+    .resume-section {
+        width: 28rem;
+        margin: 0 auto;
+    }
+
+}
